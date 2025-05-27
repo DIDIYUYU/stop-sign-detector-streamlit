@@ -3,7 +3,7 @@ import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
-
+#1
 st.title("🚦 Обнаружение стоп-знака")
 
 uploaded_file = st.file_uploader("Загрузите изображение", type=["jpg", "jpeg", "png"])
